@@ -40,6 +40,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "pry"
   gem "figaro"
+  # gem "simplecov"
 end
 
 group :test do
@@ -48,7 +49,6 @@ group :test do
   gem "launchy"
   gem "vcr"
   gem "webmock"
-  gem "simplecov"
 end
 
 group :development do

@@ -239,8 +239,17 @@
           1,
           null
         ]
+      },
+      "/Users/ashleyplasket/3mod/practice/practice-ics/nearest-fuel-station-7/app/controllers/search_controller.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1690895924
+    "timestamp": 1690896079
   }
 }
