@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "/, root path" do
   describe "as a user, when i visit root path" do
-    it "I select 'Griffin Coffee' form the start location drop down" do
+    it "I select 'Griffin Coffee' form the start location drop down", :vcr do
       visit root_path
 
       expect(page).to have_content("Nearest Fuel Station")

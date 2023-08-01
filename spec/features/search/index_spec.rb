@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe "/search" do
   describe "as a user on the search page" do
-    it "displays the closest electric fuel station" do
+    it "displays the closest electric fuel station", :vcr do
       visit root_path
       page.select("Griffin Coffee", :from => "location")
 
