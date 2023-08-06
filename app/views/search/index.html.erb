@@ -1,9 +1,9 @@
 <ul>
-  <li>Name: <%= @facade.find_station.name %></li>
-  <li>Address: <%= @facade.find_station.address %></li>
-  <li>Fuel Type: <%= @facade.find_station.fuel_type %></li>
-  <li>Access Times: <%= @facade.find_station.access_times %> <div></li>
-  <li>Distance: <%= %></li>
-  <li>Travel Time: <%= %></li>
-  <li>Directions: <%= %></li>
+  <li>Name: <%= @facade.nearest_station.name %></li>
+  <li>Address: <%= @facade.nearest_station.address %></li>
+  <li>Fuel Type: <%= @facade.nearest_station.fuel_type %></li>
+  <li>Access Times: <%= @facade.nearest_station.access_times %> <div></li>
+  <li>Distance: <%= @facade.mq_directions.distance %></li>
+  <li>Travel Time: <%= @facade.mq_directions.travel_time %></li>
+  <li>Directions: <%= @facade.mq_directions.directions %></li>
 </ul>
